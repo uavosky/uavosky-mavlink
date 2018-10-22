@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+    <mavlink>
+        <include>ardupilotmega.xml</include>
+    <messages>
+	    <message id="199" name="UVLAS_STATUS">
+		    <description></description>
+		    <field type="float" name="offset_x"></field>
+		    <field type="float" name="offset_y"></field>
+		    <field type="float" name="distance"></field>
+		    <field type="float" name="snr"></field>
+		    <field type="float" name="illumination"></field>
+		    <field type="uint16_t" name="status"></field>
+		    <field type="uint16_t" name="sensor"></field>
+	    </message>
+    </messages>
+</mavlink>
